@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket. It will also help with learning the understanding the basic configurations of osTicket.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -55,3 +55,37 @@ This tutorial outlines the post-install configuration of the open-source help de
 3. Now that we have an understanding of roles, next is to configure departments. Click on "Departments" then "Add New Department". Once you do that, name the new department "SysAdmins". For the sake of this demonstration, you can ignore the other settings and click "Create Dept". Now you should have new department created!
 </p>
 <br />
+
+<p>
+4. Next is to configure teams. Click on "Teams" then "Add New Team". Next, name the team "Online Banking" and click "Create Team." Now you should have a new team created!
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/41dd331d-8130-44a5-a950-c70a55cfee9b"/>
+<img src="https://github.com/user-attachments/assets/eb8e4147-5b38-4e27-be1b-6213d0757619"/>
+</p>
+
+<p>
+5. Next, we will configure settings so anyone can create a ticket. Click on "Settings" then go to "Users". Under "Authentication Settings", make sure the "Require registration and login to create tickets" box is unchecked. 
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/7fc97ef6-46d6-4650-9cec-43ed4d7109d1"/>
+</p>
+
+<p>
+6. Now we will configure agents, or the workers. Click on "Agents" then navigate to the "Agents tab". Type in a first and last name and assign it an email address. Give the account a username and a password (in order to give the account a password, uncheck the "Send the agent a password reset email" and the prompts will appear). Once you do that, go to the "Access" tab and under "Primary Department", assign the "SysAdmins" department and "Supreme Admin" role to the account. In the "Permissions" tab, ensure all the boxes are checked. In the "Teams" tab, assign the account to "Online Banking" and click "Create". 
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/5d25d050-24d3-4b93-8e71-65b27cfcc57d"/>
+<img src="https://github.com/user-attachments/assets/0b7f0742-4c7f-49be-972d-027f0b694762"/>
+<img src="https://github.com/user-attachments/assets/1fe150dc-f134-4978-9d9b-ae4a30f064c0"/>
+<img src="https://github.com/user-attachments/assets/f045b868-bd24-4106-9edd-d2afa3babd2d"/>
+<img src="https://github.com/user-attachments/assets/296da4f1-dee9-4f94-9c24-56777715b1ab"/>
+</p>
+
+<p>
+7. Now we will configure the user accounts, or customers. Instead of being the admin panel, we must switch to the agent panel. On the top right, click "Agent Panel". Next, click "Users" then "Add user". Fill in the email address and name, then click "Add User". The account should like the secound image below. 
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/1d8c2931-4b2a-49b7-b9b9-3cb8e7a57dcb"/>
+<img src="https://github.com/user-attachments/assets/9a6cabaa-7a95-4009-8b97-de8d2190bda6"/>
+</p>
