@@ -37,17 +37,21 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/7c352c45-5ed4-4f0d-ba10-ee0db9fc68be"/>
+<img src="https://github.com/user-attachments/assets/ac2c9bbd-7c23-4660-87cb-4f8526a04c89"/>
+<img src="https://github.com/user-attachments/assets/e1cde134-0b02-46df-935f-f66f381afea0"/>
+<img src="https://github.com/user-attachments/assets/324d9ef7-c427-458f-9f20-63ff5653e7c5"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+2. When you're in the admin panel, click on "Agents" then select "Roles". Once you do that, click "Add New Role" and name the new role "Supreme Admin". After naming the role, click on "Permissions" and make sure all the boxes are check off in "Tickets", "Tasks", and "Knowledgebase". Once that's done, click "Add Role" and the "Supreme Admin" role will be created!
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/089a1e0f-aeea-45b7-89ae-250becd73396"/>
+<img src="https://github.com/user-attachments/assets/15396a72-f558-42f4-90e3-4f87f8c3365f"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+3. Now that we have an understanding of roles, next is to configure departments. Click on "Departments" then "Add New Department". Once you do that, name the new department "SysAdmins". For the sake of this demonstration, you can ignore the other settings and click "Create Dept". Now you should have new department created!
 </p>
 <br />
